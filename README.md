@@ -167,7 +167,7 @@ The updater uses a custom parser and comparator to decide if an update is availa
 
 ## Customization and Extensions
 
-You can extend Modular-Auto-Updater with additional features:
+Some additional features I'd like to add:
 - **Checksum Verification:** Add an optional field in the manifest for file hashes to verify integrity after download.
 - **Post-Update Scripts:** Specify commands or scripts to run after a successful update.
 - **Advanced Process Management:** Customize the functions for stopping a running instance and relaunching the new executable using modules like `psutil`.
